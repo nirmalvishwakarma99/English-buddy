@@ -1,8 +1,0 @@
-
-fastapi
-uvicorn
-python-dotenv
-pydantic-settings
-groq
-python-multipart
-edge-tts
