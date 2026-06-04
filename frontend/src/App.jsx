@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 
-const API_URL = "https://english-buddy-production.up.railway.app/";
+const API_URL = "https://english-buddy-production.up.railway.app/api/v1";
+
 
 const VOICES = [
   { value: "american_female", label: "🇺🇸 American Female" },
