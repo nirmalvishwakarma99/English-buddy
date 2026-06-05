@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-const API_URL = "https://english-buddy-production.up.railway.app/api/v1";
+const API_URL = "https://english-buddy-production.up.railway.app/";
 
 
 const VOICES = [
@@ -58,7 +58,7 @@ export default function App() {
       formData.append("voice", selectedVoice);
 
       try {
-        const res = await fetch(`${API_URL}/conversation`, {
+        const res = await fetch(`${API_URL}api/v1/conversation`, {
           method: "POST",
           body: formData,
         });
